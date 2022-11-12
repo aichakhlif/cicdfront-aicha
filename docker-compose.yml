@@ -1,0 +1,11 @@
+version: "3.3"
+
+services:
+
+  app:
+
+    image: azizbenhaha/angular-app:latest
+    container_name: angular_container
+    restart: on-failure
+    ports:
+      - 4200:80
